@@ -10,10 +10,9 @@ public class Program {
 	
 		
 		SellerDao sellerDao = DaoFactory.ceateSellerDao();
-		
+		System.out.println("---Test n.1 Seller findByID---");
 		Seller seller = sellerDao.findById(3);
 		System.out.println(seller);
-
 	}
 
 }
